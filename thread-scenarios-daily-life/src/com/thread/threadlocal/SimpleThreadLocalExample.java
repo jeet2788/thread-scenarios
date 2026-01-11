@@ -1,7 +1,7 @@
 package com.thread.threadlocal;
 
 public class SimpleThreadLocalExample {
-     static void main(String args[]){
+     static void main(){
 
          Runnable task1 = () -> {
              UserContextHolder.user.set(new UserContext("Alice"));
